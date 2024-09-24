@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
+              "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\infci\\Desktop\\kraken\\WinFormsAppGit\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "C:\\Users\\infci\\Desktop\\kraken\\WinFormsAppGit\\WinFormsApp1\\WinFormsApp1\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\infci\\Desktop\\kraken\\WinFormsAppGit\\WinFormsApp1\\WinFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T07:47:59.708Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "EditorCaption": " [Design]"
             }
           ]
         }
