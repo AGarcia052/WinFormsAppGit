@@ -1,4 +1,4 @@
-﻿namespace WinFormsApp1
+namespace WinFormsApp1
 {
     partial class Form1
     {
@@ -30,6 +30,7 @@
         {
             btAceptar = new Button();
             btdos = new Button();
+            lbPepito = new Label();
             lbJuanito = new Label();
             SuspendLayout();
             // 
@@ -52,6 +53,16 @@
             btdos.UseVisualStyleBackColor = true;
             btdos.Click += button1_Click;
             // 
+            // lbPepito
+            // 
+            lbPepito.AutoSize = true;
+            lbPepito.Location = new Point(611, 123);
+            lbPepito.Name = "lbPepito";
+            lbPepito.Size = new Size(79, 20);
+            lbPepito.TabIndex = 3;
+            lbPepito.Text = "soy pepito";
+            lbPepito.TextAlign = ContentAlignment.TopCenter;
+            // 
             // lbJuanito
             // 
             lbJuanito.AutoSize = true;
@@ -66,11 +77,13 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lbPepito);
             Controls.Add(lbJuanito);
             Controls.Add(btdos);
             Controls.Add(btAceptar);
             Name = "Form1";
             Text = "Formulario de ejemplo mod";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -80,5 +93,6 @@
         private Button btAceptar;
         private Button btdos;
         private Label lbJuanito;
+        private Label lbPepito;
     }
 }
