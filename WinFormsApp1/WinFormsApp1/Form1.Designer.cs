@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             btAceptar = new Button();
+            btdos = new Button();
             SuspendLayout();
             // 
             // btAceptar
@@ -40,11 +41,22 @@
             btAceptar.Text = "Aceptar";
             btAceptar.UseVisualStyleBackColor = true;
             // 
+            // btdos
+            // 
+            btdos.Location = new Point(518, 327);
+            btdos.Name = "btdos";
+            btdos.Size = new Size(94, 29);
+            btdos.TabIndex = 1;
+            btdos.Text = "segundo";
+            btdos.UseVisualStyleBackColor = true;
+            btdos.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btdos);
             Controls.Add(btAceptar);
             Name = "Form1";
             Text = "Formulario de ejemplo mod";
@@ -54,5 +66,6 @@
         #endregion
 
         private Button btAceptar;
+        private Button btdos;
     }
 }
