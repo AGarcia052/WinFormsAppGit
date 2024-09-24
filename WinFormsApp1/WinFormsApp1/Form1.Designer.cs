@@ -30,6 +30,7 @@
         {
             btAceptar = new Button();
             btdos = new Button();
+            lbPepito = new Label();
             SuspendLayout();
             // 
             // btAceptar
@@ -51,21 +52,35 @@
             btdos.UseVisualStyleBackColor = true;
             btdos.Click += button1_Click;
             // 
+            // lbPepito
+            // 
+            lbPepito.AutoSize = true;
+            lbPepito.Location = new Point(611, 123);
+            lbPepito.Name = "lbPepito";
+            lbPepito.Size = new Size(79, 20);
+            lbPepito.TabIndex = 2;
+            lbPepito.Text = "soy pepito";
+            lbPepito.TextAlign = ContentAlignment.TopCenter;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lbPepito);
             Controls.Add(btdos);
             Controls.Add(btAceptar);
             Name = "Form1";
             Text = "Formulario de ejemplo mod";
+            Load += Form1_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button btAceptar;
         private Button btdos;
+        private Label lbPepito;
     }
 }
